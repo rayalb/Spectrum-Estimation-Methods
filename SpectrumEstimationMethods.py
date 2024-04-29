@@ -11,7 +11,7 @@ Spectrum Estimation Methods.
 import numpy as np
 from scipy import linalg, signal
 import myFunctions as myFunc
-import ModelOrderSelection as mos
+#import ModelOrderSelection as mos
 
 def projHankel(Z):
     '''
@@ -217,7 +217,7 @@ def Spectrum_ShiftZoom(X, t, wc, dw, Q, order = None):
     Parameters
     ----------
     X : data signal
-    t : time
+    t : time array
     wc : center frequency
     dw : Bandwidth
     Q : Decimation factor
